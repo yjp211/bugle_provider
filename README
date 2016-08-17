@@ -1,0 +1,20 @@
+bugle provider
+
+#make:
+    编译: go build
+    依赖: ./request.def
+
+#run:
+    ./provider -c [配置文件位置]
+    配置文件参考: ./config.conf
+
+
+#特点: 
+    分发、广播消息，消息流量、优先级，获取在线人数
+    和bugle broker配置使用
+    精简mqtt，qos = 0
+    适用于低延迟，但能容忍消息丢失的场景，例如： 弹幕/聊天室等
+
+
+#Author: 于家鹏 616508150@qq.com
+

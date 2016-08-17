@@ -1,0 +1,4 @@
+github.com/satori/go.uuid
+github.com/yjp211/web
+github.com/op/go-logging
+github.com/garyburd/redigo/redis
